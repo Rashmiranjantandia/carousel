@@ -35,7 +35,7 @@ define(
           [
             {
               "id":"1",
-              "title":"13_hours",
+              "title":"13 Hours",
               "img" : "static/img/poster/13_hours.jpg"
             },
             {
@@ -90,7 +90,7 @@ define(
             },
             {
               "id":"12",
-              "title":"W W - 84",
+              "title":"Wonder Women - 84",
               "img" : "static/img/poster/ww84.jpg"
             },
             {

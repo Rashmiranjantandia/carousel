@@ -55,23 +55,9 @@ define(
 
         var newCarouselButton = this._createCarouselButton();
 
-        var playerButton = new Button();
-        playerButton.addEventListener("select", function(evt){
-          self.getCurrentApplication().pushComponent("maincontainer", "sampleapp/appui/components/simplevideocomponent");
-        });
-        playerButton.appendChildWidget(new Label("Simple Video Player Example"));
-
-        var horizontalProgressButton = new Button();
-        horizontalProgressButton.appendChildWidget(new Label("Horizontal Progress Bar Example"));
-        horizontalProgressButton.addEventListener("select", function(evt) {
-          self.getCurrentApplication().pushComponent("maincontainer", "sampleapp/appui/components/horizontalprogresscomponent");
-        });
-
         // Create a vertical list and append the buttons to navigate within the list
         verticalListMenu = new VerticalList("mainMenuList");
         verticalListMenu.appendChildWidget(newCarouselButton);
-        // verticalListMenu.appendChildWidget(playerButton);
-        // verticalListMenu.appendChildWidget(horizontalProgressButton);
         this.appendChildWidget(verticalListMenu);
 
         // calls Application.ready() the first time the component is shown
@@ -93,14 +79,14 @@ define(
         }
 
         var button = new Button('carouselButton');
-        button.appendChildWidget(new Label("Carousel Example"));
+        button.appendChildWidget(new Label("Continue Watching"));
         button.addEventListener('select', carouselExampleSelected);
         return button;
       },
 
       _getCarouselConfig: function () {
         return {
-          description: "Carousel example, LEFT and RIGHT to navigate, SELECT to go back",
+          description: "To Watch, LEFT and RIGHT to navigate, SELECT to go back",
           dataSource: new DataSource(null, new SimpleFeed(), 'loadData'),
           formatter: new SimpleFormatter(),
           orientation: Carousel.orientations.HORIZONTAL,
