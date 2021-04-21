@@ -35,34 +35,69 @@ define(
           [
             {
               "id":"1",
-              "title":"Apple",
-              "img" : "static/img/fruit/apple.png"
+              "title":"13_hours",
+              "img" : "static/img/poster/13_hours.jpg"
             },
             {
               "id":"2",
-              "title":"Banana",
-              "img" : "static/img/fruit/banana.png"
+              "title":"Airplane",
+              "img" : "static/img/poster/airplane.jpg"
             },
             {
               "id":"3",
-              "title":"Grapes",
-              "img" : "static/img/fruit/grapes.png"
+              "title":"Birds Of Pray",
+              "img" : "static/img/poster/BOP.jpg"
             },
             {
               "id":"4",
-              "title":"Orange",
-              "img" : "static/img/fruit/orange.png"
+              "title":"Dunkirk",
+              "img" : "static/img/poster/dunkirk.jpg"
             },
             {
               "id":"5",
-              "title":"Peach",
-              "img" : "static/img/fruit/peach.png"
+              "title":"Hobbs & Shaw",
+              "img" : "static/img/poster/hobbs&shaw.jpg"
             },
             {
               "id":"6",
-              "title":"Pear",
-              "img" : "static/img/fruit/pear.png"
-            }
+              "title":"I Care A Lot",
+              "img" : "static/img/poster/ical.jfif"
+            },
+            {
+              "id":"7",
+              "title":"Joker",
+              "img" : "static/img/poster/joker.jpg"
+            },
+            {
+              "id":"8",
+              "title":"Monster Hunter",
+              "img" : "static/img/poster/monster_hunter.jpg"
+            },
+            {
+              "id":"9",
+              "title":"Tom Jerry",
+              "img" : "static/img/poster/Tom_Jerry.jpg"
+            },
+            {
+              "id":"10",
+              "title":"Witches",
+              "img" : "static/img/poster/witches.jpg"
+            },
+            {
+              "id":"11",
+              "title":"Wrong Turn",
+              "img" : "static/img/poster/wrong_turn.jpg"
+            },
+            {
+              "id":"12",
+              "title":"W W - 84",
+              "img" : "static/img/poster/ww84.jpg"
+            },
+            {
+              "id":"13",
+              "title":"Zombieland",
+              "img" : "static/img/poster/zombieland.jpg"
+            },
           ]
         );
       }
