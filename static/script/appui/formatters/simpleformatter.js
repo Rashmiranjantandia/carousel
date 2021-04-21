@@ -37,7 +37,7 @@ define(
         item = iterator.next();
         button = new Button("movie" + item.id);
         button.appendChildWidget(new Image("img-item.id", item.img, { width : 200, height: 200}));
-        button.appendChildWidget(new Label(item.title));
+        button.appendChildWidget(new Label("img-title", item.title));
         return button;
       }
     });
