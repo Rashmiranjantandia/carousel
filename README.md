@@ -1,17 +1,13 @@
-# Example TAL Application
+# TAL Application
 
-An example TV application using the [TAL](https://www.github.com/bbc/tal) framework from the BBC.
+<img src="./assets/main.jpg" width="500">
 
-<img src="./assets/main.png" width="500">
-
-<img src="./assets/carousel.png" width="500">
-
-<img src="./assets/playback.png" width="500">
+<img src="./assets/carousel.jpg" width="500">
 
 # Getting Started
 
 ```
-git clone git@github.com:bbc/talexample.git
+git clone https://github.com/rashmiranjanbuffer0/carousel.git
 cd talexample
 npm install
 npm start
