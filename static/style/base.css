@@ -102,7 +102,7 @@ object {
 /* if you target some consoles you may need to add additional styles like this */
 .someConsoles .horizontallist .listitem {
     display: inline-block;
-    float: left;
+    /* float: left; */
 }
 
 /* If you target some older tv models, you will need to specify
