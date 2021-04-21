@@ -39,7 +39,7 @@ define(
     // All components extend Component
     return Component.extend({
       init: function init () {
-        var self, helloWorldLabel, welcomeLabel, carouselButtonLabel, verticalListMenu;
+        var self, helloWorldLabel, welcomeLabel, verticalListMenu;
 
         self = this;
 
