@@ -1,8 +1,8 @@
 # TAL Application
 
-<img src="./assets/main.jpg" width="500">
+<img src="./assets/main.JPG" width="500">
 
-<img src="./assets/carousel.jpg" width="500">
+<img src="./assets/carousel.JPG" width="500">
 
 # Getting Started
 
