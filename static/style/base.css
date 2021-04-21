@@ -134,7 +134,7 @@ initial element background in the base stylesheet, not in dynamically loaded sty
 .samsung.layout540p #app {
     width: 960px;
     height: 540px;
-    background-image: url(../img/bbc_background_540.png);
+    background-image: url(../img/bbc_background_540.jpg);
     background-repeat: no-repeat;
     background-color: red;
 }
@@ -142,14 +142,14 @@ initial element background in the base stylesheet, not in dynamically loaded sty
 .samsung.layout720p #app {
     width: 1280px;
     height: 720px;
-    background-image: url(../img/bbc_background_720.png);
+    background-image: url(../img/bbc_background_720.jpg);
     background-repeat: no-repeat;
 }
 
 .samsung.layout1080p #app {
     width: 1920px;
     height: 1080px;
-    background-image: url(../img/bbc_background_1080.png);
+    background-image: url(../img/bbc_background_1080.jpg);
     background-repeat: no-repeat;
 }
 
